@@ -1,8 +1,6 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.0.0"
-# This is a workaround for the sassc v.2.3.0 gem not installing. Remove this when it gets resolved.
-gem 'sassc', '~>2.1.0'
 
 group :jekyll_plugins do
 # No plugins to include
